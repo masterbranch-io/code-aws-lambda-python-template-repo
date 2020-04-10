@@ -13,3 +13,12 @@ script:
 after_success:
   - codecov
   - python-codacy-coverage -r coverage.xml
+
+deploy:
+  provider: lambda
+  function_name: "name_of_you_lambda"
+  role: $AWS_LAMBDA_DEPLOYMENT_ROLE
+  region: $AWS_REGION
+  runtime: "python3.8"
+  handler_name: "lambda_handler"
+  module_name: "entry_point/app"
