@@ -6,13 +6,12 @@ install:
   - pip install -r requirements.txt
   - pip install codecov
   - pip install pytest-cov
-  - pip install codacy-coverage
+
 script:
   - coverage run -m pytest --cov-report=xml --cov=.
 
 after_success:
   - codecov
-  - python-codacy-coverage -r coverage.xml
 
 deploy:
   provider: lambda
