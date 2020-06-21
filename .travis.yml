@@ -2,7 +2,7 @@ language: python
 python:
   - "3.8"
 install:
-  - pip install coverage==4.3
+  - pip install coverage
   - pip install -r requirements.txt
   - pip install codecov
   - pip install pytest-cov
