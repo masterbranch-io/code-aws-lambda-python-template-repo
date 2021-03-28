@@ -6,9 +6,9 @@
 
 TODO after generating a repo from the template
 
-1.  set `AWS_REGION` variable at travis
-2.  set `AWS_LAMBDA_DEPLOYMENT_ROLE` variable at travis
-3.  set `AWS_ACCESS_KEY_ID` variable at travis
-4.  set `AWS_SECRET_ACCESS_KEY` varable at travis
-5.  update badges to point to the newly generated repo
-6.  start coding
+- [ ]  set `AWS_REGION` variable at travis
+- [ ] set `AWS_LAMBDA_DEPLOYMENT_ROLE` variable at travis
+- [ ] set `AWS_ACCESS_KEY_ID` variable at travis
+- [ ] set `AWS_SECRET_ACCESS_KEY` varable at travis
+- [ ] update badges to point to the newly generated repo
+- [ ] start coding
